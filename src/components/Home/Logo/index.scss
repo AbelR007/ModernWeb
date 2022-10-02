@@ -1,0 +1,38 @@
+
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 689px;
+
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .solid-logo {
+    // position: absolute;
+    // top:auto;
+    // right: auto;
+    bottom: 0;
+    // left: 0;
+
+    // margin: auto;
+    width: 100%;
+    height: auto;
+  }
+}
+
+// .ratio4-3 {
+//  width: 100%;
+//  background-image: url(image-with-4-3-aspect-ratio.svg);
+//  background-size: cover;
+//  height: 0;
+//  padding: 0; /* reset */
+//  padding-bottom: calc(100% * 3 / 4);
+// }
