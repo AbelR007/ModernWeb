@@ -27,34 +27,5 @@
       margin-top: -50px;
       font-family: 'JetBrains Mono', monospace;
     }
-
-    .btn {
-      color: var(--color-bg);
-      background-color: var(--color-acc);
-
-      font-family: 'PlusJakartaSans', sans-serif;
-      font-size: 14px;
-      font-weight: bolder;
-
-      padding: 1em 2em;
-      margin-top:25px;
-      border-radius: 5rem;
-      text-decoration: none;
-      margin-top:25px;
-      float: left;
-
-      // Hover effect
-      transition: 
-        transform 250ms ease-in-out,
-        opacity 250ms radial,
-      ;
-      &:hover,&:focus {
-        // transform: scale(1.1);
-        background-color: var(--color-bg);
-        color: var(--color-acc);
-        opacity: .8;
-      }
-    }
   }
-
 }

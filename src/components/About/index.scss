@@ -1,0 +1,36 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+
+  // .image-area {
+  // }
+  .text-area {
+    grid-auto-columns: auto;
+    padding: 5em 10em;
+    // display: grid;
+    // grid-template-columns: auto;
+
+    .heading {
+      font-size: 5em;
+      font-family: "Plus Jakarta Sans",sans-serif;
+      // margin: 0;
+
+      letter-spacing: .05rem;
+
+      .me {
+        color: var(--blue);
+      }
+    }
+
+    .desc {
+      padding: 0;
+      margin: 2em 0;
+      font-size: 1.2em;
+      font-family: "Plus Jakarta Sans",sans-serif;
+      font-weight: 500;
+      // letter-spacing: rem;
+      line-height: 1.5em;
+    }
+  }
+}

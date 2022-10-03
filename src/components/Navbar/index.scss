@@ -1,11 +1,3 @@
-:root {
-    --color: #111; // navbar background color
-    --color-bg: #222; // hover background
-    --color-acc: #ffd369;
-    --blue: #;
-    --white: #fff; // main-text
-    --light-white: #ddd;
-}
 
 .navbar {
     font-family: 'Poppins', sans-serif;
@@ -36,10 +28,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    nav>* {
-        margin: 0 .5rem;
-        padding: .5rem;
+        &>* {
+            margin: 0 .5rem;
+            padding: .5rem;
+        }
     }
     .logo {
         font-family: 'JetBrains Mono', monospace;
@@ -55,6 +47,7 @@
     .link {
         text-decoration: none;
         padding: .5rem 2rem;
+        margin: 0em .5rem;
         color: var(--color); // color of text
         // border: 1px solid var(--color); // border color
         border-radius: 10rem;
@@ -86,7 +79,35 @@
             }
         }
     }
-    a.active {
-        color: var(--color-acc);
+    .about-link {
+        &:hover, &:focus {
+            color: var(--color-acc);
+        }
+        &.active {
+            background-color: var(--color-acc);
+            color: var(--color-bg);
+        }
     }
+    .projects-link {
+        &:hover, &:focus {
+            color: var(--blue);
+        }
+        &.active {
+            background-color: var(--blue);
+            color: var(--color-bg);
+        }
+    }
+    .contact-link {
+        &:hover, &:focus {
+            color: var(--red);
+        }
+        &.active {
+            background-color: var(--red);
+            color: var(--color-bg);
+        }
+    }
+    
+    // a.active {
+    //     background-color: var(--color-acc);
+    // }
 }

@@ -1,4 +1,15 @@
 
+:root {
+    --color: #111; // navbar background color
+    --color-bg: #222; // hover background
+    --light-black: #333;
+    --color-acc: #ffd369;
+    --blue: #0099ff;
+    --red: #ce2b2b;
+    --white: #fff; // main-text
+    --light-white: #ddd;
+}
+
 .page {
   width: 100%;
   height: 100%;
@@ -22,4 +33,39 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1;
+}
+
+.btn {
+  color: var(--color-bg);
+  background-color: var(--color-acc);
+
+  font-family: 'PlusJakartaSans', sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+
+  padding: 1em 2em;
+  margin-top:25px;
+  border-radius: 5rem;
+  text-decoration: none;
+  margin-top:25px;
+  float: left;
+
+  // Hover effect
+  transition: 
+    transform 250ms ease-in-out,
+    opacity 250ms radial,
+  ;
+  &:hover,&:focus {
+    // transform: scale(1.1);
+    background-color: var(--color-bg);
+    color: var(--color-acc);
+    opacity: .8;
+  }
+}
+.blue-btn {
+  background-color: var(--blue);
+  color: var(--color-bg);
+  &:hover, &:focus {
+    color: var(--blue);
+  }
 }
