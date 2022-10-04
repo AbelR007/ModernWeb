@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ModernWeb/static/css/main.e3bdb441.css",
-    "main.js": "/ModernWeb/static/js/main.215761df.js",
+    "main.css": "/ModernWeb/static/css/main.f14a21ee.css",
+    "main.js": "/ModernWeb/static/js/main.8466e200.js",
     "static/js/787.6b933b67.chunk.js": "/ModernWeb/static/js/787.6b933b67.chunk.js",
     "static/media/JetBrainsMono-Regular.ttf": "/ModernWeb/static/media/JetBrainsMono-Regular.be594ccdd8a8dd0ed5db.ttf",
     "static/media/PlusJakartaSans-Regular.ttf": "/ModernWeb/static/media/PlusJakartaSans-Regular.e959ca27c856c771bc26.ttf",
     "static/media/logo.svg": "/ModernWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ModernWeb/index.html",
-    "main.e3bdb441.css.map": "/ModernWeb/static/css/main.e3bdb441.css.map",
-    "main.215761df.js.map": "/ModernWeb/static/js/main.215761df.js.map",
+    "main.f14a21ee.css.map": "/ModernWeb/static/css/main.f14a21ee.css.map",
+    "main.8466e200.js.map": "/ModernWeb/static/js/main.8466e200.js.map",
     "787.6b933b67.chunk.js.map": "/ModernWeb/static/js/787.6b933b67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3bdb441.css",
-    "static/js/main.215761df.js"
+    "static/css/main.f14a21ee.css",
+    "static/js/main.8466e200.js"
   ]
 }
