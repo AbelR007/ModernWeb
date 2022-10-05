@@ -1,3 +1,4 @@
+import Loader from "react-loaders";
 import { Link } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import './index.scss';
@@ -5,6 +6,7 @@ import Logo from "./Logo";
 
 const Home = () => {
   return (
+    <>
     <div className="container home-page">
       <div className="block-1">
         <div className="text-zone">
@@ -18,6 +20,8 @@ const Home = () => {
         <AboutMe/>
       </div>
     </div>
+    <Loader type="square-spin"/>
+    </>
   );
 }
 

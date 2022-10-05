@@ -1,10 +1,14 @@
+import Loader from 'react-loaders';
 import './index.scss';
 
 const Projects = () => {
   return(
+    <>
     <div className="container">
-      This.
+      Projects
     </div>
+    <Loader type="square-spin"/>
+    </>
   )
 };
 
